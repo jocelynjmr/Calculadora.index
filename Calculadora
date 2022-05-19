@@ -1,0 +1,50 @@
+<!DOCTYPEhtml >
+	< html  lang =" es " >
+	< cabeza >
+	
+	    < meta  name =" viewport " content =" ancho=ancho-del-dispositivo, escala-inicial=1.0 " >
+	    < enlace  rel =" hoja de estilo " href =" estilo.css " >
+	    < título > Calculadora </ título >
+	</ cabeza >
+	< cuerpo >
+	    < clase de encabezado  =" encabezado " >
+	        < h1  class =" header__title " > Calculadora simple JS </ h1 >
+	    </ encabezado >
+	
+
+	    < clase principal  =" principal " >
+	        < div  clase =" contenedor " >
+	            < clase div  =" contenedor__entrada " >
+	                < tipo de entrada  =" texto " nombre =" resultado " id =" resultado " marcador de posición =" 0 " solo lectura > 
+	            </ div >
+	            < div  clase =" contenedor__botones " >
+	                < clase de botón  =" botón " > 7 </ botón >
+	                < clase de botón  =" botón " > 8 </ botón >
+
+	                < clase de botón  =" botón " > 9 </ botón >
+	                < clase de botón  =" btn " id =" multi " > x </ botón >
+	                
+	                < clase de botón  =" botón " > 4 </ botón >
+
+	                < clase de botón  =" botón " > 5 </ botón >
+	                < clase de botón  =" botón " > 6 </ botón >
+	                < clase de botón  =" btn " id =" resto " > - </ botón >
+	
+
+	                < clase de botón  =" botón " > 1 </ botón >
+	                < clase de botón  =" botón " > 2 </ botón >
+	                < clase de botón  =" botón " > 3 </ botón >
+	                < clase de botón  =" btn " id =" añadir " > + </ botón >
+	
+
+	                < clase de botón  =" btn " id =" restablecer " > c </ botón >
+	                < clase de botón  =" botón " > 0 </ botón >
+	                < clase de botón  =" btn " id =" igual " > = </ botón >
+	                < clase de botón  =" btn " id =" div " > / </ botón >
+	            </ div >
+	        </ div >
+	    </ principal >
+	    < script  src =" index.js " > </ script >
+	</ cuerpo >
+	</ html >
+
